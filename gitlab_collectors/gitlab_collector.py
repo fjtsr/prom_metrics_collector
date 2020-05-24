@@ -1,9 +1,12 @@
 import traceback
 from prometheus_client import CollectorRegistry
 from abc import ABCMeta, abstractclassmethod
+import gitlab
 
 
 class GitlabCollector(metaclass=ABCMeta):
+    gl = gitlab.Gitlab.from_config('global', ['gitlab.cfg'])
+
     def __init__(self, registry=CollectorRegistry):
         pass
 

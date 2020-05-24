@@ -1,5 +1,6 @@
 .venv
 __pycache__
+gitlab.cfg
 
 # test output
 output/*
