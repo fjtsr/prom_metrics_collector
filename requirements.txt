@@ -2,7 +2,7 @@ autopep8==1.5.2
 certifi==2020.4.5.1
 chardet==3.0.4
 idna==2.9
-numpy==1.18.4
+numpy==1.22.0
 pandas==1.0.3
 prometheus-client==0.7.1
 pycodestyle==2.6.0
